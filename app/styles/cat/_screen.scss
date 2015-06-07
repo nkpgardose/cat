@@ -1,0 +1,22 @@
+// media query. Prefer px for precise value.
+// private variable screen value
+// -----------------------------------------------------------------------------
+$mq-smallUp           : 601px;
+$mq-mediumUp          : 993px;
+$mq-largeUp           : 1201px;
+$mq-small             : 600px;
+$mq-medium            : 992px;
+$mq-large             : 1200px;
+
+$ranges-smallOnly     : "only screen and (max-width : #{$mq-small})";
+$ranges-smallUp       : "only screen";
+$ranges-mediumDown    : "only screen and (max-width : #{$mq-medium})";
+$ranges-mediumOnly    : "only screen and (min-width : #{$mq-smallUp}) and (max-width : #{$mq-medium})";
+$ranges-mediumUp      : "only screen and (min-width : #{$mq-smallUp})";
+$ranges-largeUp       : "only screen and (min-width : #{$mq-mediumUp})";
+
+$grid-columns                   : 12;
+$grid-gutterWidth               : 1rem;
+
+// screen application
+// -----------------------------------------------------------------------------

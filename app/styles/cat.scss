@@ -2,4 +2,14 @@
 
 // Import cat styling
 // Variables
+@import 'cat/z-index';
+@import 'cat/screen';
+@import 'cat/type';
+@import 'cat/color';
+@import 'cat/type';
+
 // Components
+@import 'cat/grid';
+@import 'cat/base';
+// Polyfills
+@import 'cat/utility';
