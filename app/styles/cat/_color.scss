@@ -4,8 +4,23 @@
 // private variable color value
 // -----------------------------------------------------------------------------
 
+// scales on greys
+$black:        rgb(0, 0, 0);
+$charcoal:     rgba(0, 0, 0, 0.87);
+$grey:         rgba(0, 0, 0, 0.54);
+$silver:       rgba(0, 0, 0, 0.26);
+
+$white:        rgb(255, 255, 255);
+$vanilla:      rgba(255, 255, 255, 0.7);
+$ghost:        rgba(255, 255, 255, 0.3);
+// color to use on most components
+$primary:      rgb(137, 218, 247);
+$success:      rgb(101, 204, 143);
+$alert:        rgb(255, 131, 122);
+$warning:      rgb(252, 216, 80);
+$notice:       rgb(210, 244, 255);
 
 // color application
 // -----------------------------------------------------------------------------
-
-
+$color-charcoal--body:     $charcoal;
+$color-primary--link:      $primary;
