@@ -3,6 +3,48 @@
 // private variable type values
 // -----------------------------------------------------------------------------
 
+// font size scale values
+$fontSize-micro:          6px;
+$fontSize-smallest:       8px;
+$fontSize-smaller:        10px;
+$fontSize-small:          12px;
+$fontSize-base:           16px;
+$fontSize-large:          20px;
+$fontSize-larger:         24px;
+$fontSize-largest:        28px;
+$fontSize-jumbo:          32px;
+$fontSize-grande:         36px;
+
+// line height
+$lineHeight-tighter:      1.2;
+$lineHeight-tight:        1.3;
+$lineHeight-baseSans:     1.45;
+$lineHeight-base:         1.6;
+$lineHeight-loose:        1.8;
+$lineHeight-looser:       1.9;
+
+// letter spacing
+$letterSpacing-tightest:  -2px;
+$letterSpacing-tighter:   -1.5px;
+$letterSpacing-tight:     -1px;
+$letterSpacing-normal:    normal;
 
 // type application
 // -----------------------------------------------------------------------------
+$fontSize-grande--h1:      $fontSize-grande;
+$fontSize-jumbo--h2:       $fontSize-jumbo;
+$fontSize-largest--h3:     $fontSize-largest;
+$fontSize-larger--h4:      $fontSize-larger;
+$fontSize-large--h5:       $fontSize-large;
+$fontSize-base--h6:        $fontSize-base;
+
+$lineHeight-tighter--h1:   $lineHeight-tighter;
+$lineHeight-tight--h2:     $lineHeight-tight;
+$lineHeight-tight--h3:     $lineHeight-tight;
+$lineHeight-tight--h4:     $lineHeight-tight;
+$lineHeight-baseSans--h5:  $lineHeight-baseSans;
+$lineHeight-base--h6:      $lineHeight-base;
+
+$letterSpacing-tightest--h1: $letterSpacing-tightest;
+$letterSpacing-tighter--h2:  $letterSpacing-tighter;
+$letterSpacing-tight--h3:    $letterSpacing-tight;

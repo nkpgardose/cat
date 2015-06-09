@@ -16,31 +16,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 h1 {
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: -2px;
+  font-size: $fontSize-grande--h1;
+  line-height: $lineHeight-tighter--h1;
+  letter-spacing: $letterSpacing-tightest--h1;
 }
 h2 {
-  font-size: 32px;
-  line-height: 1.25;
-  letter-spacing: -1.5px;
+  font-size: $fontSize-jumbo--h2;
+  line-height: $lineHeight-tight--h2;
+  letter-spacing: $letterSpacing-tighter--h2;
 }
 h3 {
-  font-size: 28px;
-  line-height: 1.3;
-  letter-spacing: -1px;
+  font-size: $fontSize-largest--h3;
+  line-height: $lineHeight-tight--h3;
+  letter-spacing: $letterSpacing-tight--h3;
 }
 h4 {
-  font-size: 24px;
-  line-height: 1.35;
+  font-size: $fontSize-larger--h4;
+  line-height: $lineHeight-tight--h4;
 }
 h5 {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: $fontSize-large;
+  line-height: $lineHeight-baseSans--h5;
 }
 h6 {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: $fontSize-base--h6;
+  line-height: $lineHeight-base--h6;
   letter-spacing: 0;
 }
 p {
@@ -54,10 +54,10 @@ a:hover {
 }
 
 @media #{$ranges-mediumUp} {
-  h1 { font-size: 40px }
-  h2 { font-size: 36px }
-  h3 { font-size: 32px }
-  h4 { font-size: 28px }
-  h5 { font-size: 24px }
-  h6 { font-size: 20px }
+  h1 { font-size: $fontSize-grande--h1 * 1.1; }
+  h2 { font-size: $fontSize-jumbo--h2 * 1.1;  }
+  h3 { font-size: $fontSize-largest--h3 * 1.1;}
+  h4 { font-size: $fontSize-larger--h4 * 1.1; }
+  h5 { font-size: $fontSize-large--h5 * 1.1;  }
+  h6 { font-size: $fontSize-base--h6 * 1.1;   }
 }
