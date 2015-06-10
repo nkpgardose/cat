@@ -1,0 +1,83 @@
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  @include font-sansN3;
+  background-color: $bgColor-stealth--btn;
+  border-radius: 2px;
+  border: 1px solid $borderColor-grey--btn;
+  box-sizing: border-box;
+  color: $color-grey--btn;
+  cursor: pointer;
+  display: inline-block;
+  font-size: $fontSize-small--btn;
+  height: 38px;
+  letter-spacing: $letterSpacing-loose--btn;
+  line-height: 37px;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  border-color: $borderColor-charcoal--btn;
+  color: $color-charcoal--btn;
+  outline: 0;
+}
+.btn.btn--primary,
+button.btn--primary,
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
+input[type="button"].btn--primary {
+  background-color: $bgColor-primary--btnPrimary;
+  border-color: $borderColor-primary--btnPrimary;
+  color: $color-white--btnPrimary;
+}
+.btn.btn--primary:hover,
+button.btn--primary:hover,
+input[type="submit"].btn--primary:hover,
+input[type="reset"].btn--primary:hover,
+input[type="button"].btn--primary:hover,
+.btn.btn--primary:focus,
+button.btn--primary:focus,
+input[type="submit"].btn--primary:focus,
+input[type="reset"].btn--primary:focus,
+input[type="button"].btn--primary:focus {
+  background-color: darken($bgColor-primary--btnPrimary, 10);
+  border-color: darken($borderColor-primary--btnPrimary, 10);
+  color: $color-white--btnPrimary;
+}
+.btn.btn--alert,
+button.btn--alert,
+input[type="submit"].btn--alert,
+input[type="reset"].btn--alert,
+input[type="button"].btn--alert {
+  background-color: $bgColor-primary--btnAlert;
+  border-color: $borderColor-primary--btnAlert;
+  color: $color-white--btnAlert;
+}
+.btn.btn--alert:hover,
+button.btn--alert:hover,
+input[type="submit"].btn--alert:hover,
+input[type="reset"].btn--alert:hover,
+input[type="button"].btn--alert:hover,
+.btn.btn--alert:focus,
+button.btn--alert:focus,
+input[type="submit"].btn--alert:focus,
+input[type="reset"].btn--alert:focus,
+input[type="button"].btn--alert:focus {
+  background-color: darken($bgColor-primary--btnAlert, 10);
+  border-color: darken($borderColor-primary--btnAlert, 10);
+  color: $color-white--btnAlert;
+}

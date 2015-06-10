@@ -20,7 +20,22 @@ $alert:        rgb(255, 131, 122);
 $warning:      rgb(252, 216, 80);
 $notice:       rgb(210, 244, 255);
 
+$stealth:      transparent;
+
 // color application
 // -----------------------------------------------------------------------------
-$color-charcoal--body:     $charcoal;
-$color-primary--link:      $primary;
+$color-charcoal--body:            $charcoal;
+$color-primary--link:             $primary;
+$color-grey--btn:                 $grey;
+$color-charcoal--btn:             $charcoal;
+$color-white--btnPrimary:         $white;
+$color-white--btnAlert:           $white;
+
+$bgColor-stealth--btn:            $stealth;
+$bgColor-primary--btnPrimary:     $primary;
+$bgColor-primary--btnAlert:       $alert;
+
+$borderColor-grey--btn:           $grey;
+$borderColor-charcoal--btn:       $charcoal;
+$borderColor-primary--btnPrimary: $primary;
+$borderColor-primary--btnAlert:   $alert;

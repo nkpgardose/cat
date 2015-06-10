@@ -30,6 +30,7 @@ $letterSpacing-tightest:  -2px;
 $letterSpacing-tighter:   -1.5px;
 $letterSpacing-tight:     -1px;
 $letterSpacing-normal:    normal;
+$letterSpacing-loose:     1.6px;
 
 // type application
 // -----------------------------------------------------------------------------
@@ -39,6 +40,7 @@ $fontSize-largest--h3:     $fontSize-largest;
 $fontSize-larger--h4:      $fontSize-larger;
 $fontSize-large--h5:       $fontSize-large;
 $fontSize-base--h6:        $fontSize-base;
+$fontSize-small--btn:      $fontSize-small;
 
 $lineHeight-tighter--h1:   $lineHeight-tighter;
 $lineHeight-tight--h2:     $lineHeight-tight;
@@ -50,6 +52,7 @@ $lineHeight-base--h6:      $lineHeight-base;
 $letterSpacing-tightest--h1: $letterSpacing-tightest;
 $letterSpacing-tighter--h2:  $letterSpacing-tighter;
 $letterSpacing-tight--h3:    $letterSpacing-tight;
+$letterSpacing-loose--btn:   $letterSpacing-loose;
 
 // Mixins for type
 // -----------------------------------------------------------------------------
