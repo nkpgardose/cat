@@ -75,6 +75,28 @@ form {
   margin-bottom: 40px;
 }
 
+// Base list styles
+ul {
+  list-style: circle inside;
+}
+ol {
+  list-style: decimal inside;
+}
+ol, ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 15px 0 25px 48px;
+  font-size: 14.4px;
+}
+li {
+  margin-bottom: 16px;
+}
+
 @media #{$ranges-mediumUp} {
   h1 { font-size: $fontSize-grande--h1 * 1.1; }
   h2 { font-size: $fontSize-jumbo--h2 * 1.1;  }
