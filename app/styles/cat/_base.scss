@@ -52,6 +52,29 @@ a:hover {
   color: darken($color-primary--link, 10);
 }
 
+// Make space on elements
+button,
+.button {
+  margin-bottom: 16px;
+}
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 24px;
+}
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 40px;
+}
+
 @media #{$ranges-mediumUp} {
   h1 { font-size: $fontSize-grande--h1 * 1.1; }
   h2 { font-size: $fontSize-jumbo--h2 * 1.1;  }
