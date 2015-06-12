@@ -6,13 +6,22 @@
 
 // scales on greys
 $black:        rgb(0, 0, 0);
-$charcoal:     rgba(0, 0, 0, 0.87);
-$grey:         rgba(0, 0, 0, 0.54);
-$silver:       rgba(0, 0, 0, 0.26);
+$blackA8:      rgba(0, 0, 0, 0.87);
+$blackA5:      rgba(0, 0, 0, 0.54);
+$blackA2:      rgba(0, 0, 0, 0.26);
+$blackA1:      rgba(0, 0, 0, 0.12);
 
 $white:        rgb(255, 255, 255);
-$vanilla:      rgba(255, 255, 255, 0.7);
-$ghost:        rgba(255, 255, 255, 0.3);
+$whiteA7:      rgba(255, 255, 255, 0.7);
+$whiteA3:      rgba(255, 255, 255, 0.3);
+$whiteA1:      rgba(255, 255, 255, 0.12);
+
+$charcoal:     rgb(33, 33, 33);
+$darkgrey:     rgb(66, 66, 66);
+$grey:         rgb(97, 97, 97);
+$silver:       rgb(236, 236, 236);
+
+
 // color to use on most components
 $primary:      rgb(137, 218, 247);
 $success:      rgb(101, 204, 143);
@@ -24,21 +33,23 @@ $stealth:      transparent;
 
 // color application
 // -----------------------------------------------------------------------------
-$color-charcoal--body:            $charcoal;
-$color-primary--link:             $primary;
-$color-grey--btn:                 $grey;
-$color-charcoal--btn:             $charcoal;
-$color-white--btnPrimary:         $white;
-$color-white--btnAlert:           $white;
+$color-blackA8--body:                  $charcoal;
+$color-primary--link:                  $primary;
+$color-blackA5--btn:                   $blackA5;
+$color-blackA8--btn:                   $blackA8;
+$color-white--btnPrimary:              $white;
+$color-white--btnAlert:                $white;
 
-$bgColor-stealth--btn:            $stealth;
-$bgColor-primary--btnPrimary:     $primary;
-$bgColor-primary--btnAlert:       $alert;
-$bgColor-white--form:             $white;
+$bgColor-stealth--btn:                 $stealth;
+$bgColor-primary--btnPrimary:          $primary;
+$bgColor-primary--btnAlert:            $alert;
+$bgColor-white--form:                  $white;
+$bgColor-silver--code:                 $silver;
 
-$borderColor-grey--btn:           $grey;
-$borderColor-charcoal--btn:       $charcoal;
-$borderColor-primary--btnPrimary: $primary;
-$borderColor-primary--btnAlert:   $alert;
-$borderColor-silver--form:        $silver;
-$borderColor-primary--form:       $primary;
+$borderColor-blackA5--btn:             $blackA5;
+$borderColor-blackA8--btn:             $blackA8;
+$borderColor-primary--btnPrimary:      $primary;
+$borderColor-primary--btnAlert:        $alert;
+$borderColor-blackA1--form:            $blackA1;
+$borderColor-primary--form:            $primary;
+$borderColor-blackA1--table:           $blackA1;

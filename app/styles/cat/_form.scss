@@ -9,7 +9,7 @@ textarea,
 select {
   @include font-sansN3;
   background-color: $bgColor-white--form;
-  border: 1px solid $silver;
+  border: 1px solid $borderColor-blackA1--form;
   border-radius: 2px;
   box-shadow: none;
   box-sizing: border-box;

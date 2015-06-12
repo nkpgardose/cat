@@ -6,9 +6,9 @@ input[type="button"] {
   @include font-sansN3;
   background-color: $bgColor-stealth--btn;
   border-radius: 2px;
-  border: 1px solid $borderColor-grey--btn;
+  border: 1px solid $borderColor-blackA5--btn;
   box-sizing: border-box;
-  color: $color-grey--btn;
+  color: $color-blackA5--btn;
   cursor: pointer;
   display: inline-block;
   font-size: $fontSize-small--btn;
@@ -31,8 +31,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  border-color: $borderColor-charcoal--btn;
-  color: $color-charcoal--btn;
+  border-color: $borderColor-blackA8--btn;
+  color: $color-blackA8--btn;
   outline: 0;
 }
 .btn.btn--primary,
