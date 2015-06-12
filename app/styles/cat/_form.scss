@@ -1,0 +1,65 @@
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  @include font-sansN3;
+  background-color: $bgColor-white--form;
+  border: 1px solid $silver;
+  border-radius: 2px;
+  box-shadow: none;
+  box-sizing: border-box;
+  height: 44px;
+  padding: 11px 10px 11px 13px;
+}
+// Removes awkward default styles on some inputs for iOS
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  appearance: none;
+}
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid $borderColor-primary--form;
+  outline: 0;
+}
+label,
+legend {
+  @include font-sansN7;
+  display: block;
+  margin-bottom: 10px;
+}
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+}
+label > .label-body {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: normal;
+}
