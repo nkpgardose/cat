@@ -95,6 +95,36 @@ ol ul {
 li {
   margin-bottom: 16px;
 }
+// Code style
+code {
+  font-size: 14.4px;
+  background-color: $bgColor-silver--code;
+  border: 1px solid darken($bgColor-silver--code, 10);
+  border-radius: 2px;
+  padding: 3.2px 8px;
+  margin: 3.2px;
+  white-space: nowrap;
+}
+pre > code {
+  display: block;
+  padding: 16px 24px;
+  white-space: pre;
+}
+// Table base style
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid $borderColor-blackA1--table;
+}
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
 
 @media #{$ranges-mediumUp} {
   h1 { font-size: $fontSize-grande--h1 * 1.1; }
