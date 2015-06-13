@@ -1,0 +1,23 @@
+.nav {
+  vertical-align: baseline;
+  border-bottom: 1px solid $blackA1;
+}
+.nav-logo {
+  display: inline-block;
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  -webkit-tap-highlight-color: $highlightColor-stealth--navLogo;
+}
+.nav-list {
+  padding-bottom: 12px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.nav-list > a {
+  display: inline-block;
+  margin: 0 5px;
+  outline: none;
+  text-decoration: none;
+}
