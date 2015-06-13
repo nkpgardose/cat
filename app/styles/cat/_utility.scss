@@ -1,3 +1,11 @@
+.u-clearFix:before,
+.u-clearFix:after {
+  content: '';
+  display: table;
+}
+.u-clearFix:after {
+  clear: both;
+}
 .u-fullWidth {
   width: 100%;
 }
@@ -10,8 +18,12 @@
 .u-pullLeft {
   float: left;
 }
-.u-cf {
-  content: '';
-  display: table;
-  clear: both;
+
+@media #{$ranges-mediumUp} {
+  .u-pullRightMedUp {
+    float: right;
+  }
+  .u-pullLeftMedUp {
+    float: left;
+  }
 }
