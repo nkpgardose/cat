@@ -12,6 +12,7 @@ $blackA2:      rgba(0, 0, 0, 0.26);
 $blackA1:      rgba(0, 0, 0, 0.12);
 
 $white:        rgb(255, 255, 255);
+$whiteA8:      rgba(255, 255, 255, 0.87);
 $whiteA7:      rgba(255, 255, 255, 0.7);
 $whiteA3:      rgba(255, 255, 255, 0.3);
 $whiteA1:      rgba(255, 255, 255, 0.12);
@@ -41,12 +42,16 @@ $color-white--btnPrimary:              $white;
 $color-white--btnAlert:                $white;
 $color-blackA8--navList:               $blackA8;
 $color-blackA8--navLogo:               $blackA8;
+$color-white--navDarkLogo:             $white;
+$color-white--navListDark:             $white;
 
 $bgColor-stealth--btn:                 $stealth;
 $bgColor-primary--btnPrimary:          $primary;
 $bgColor-primary--btnAlert:            $alert;
 $bgColor-white--form:                  $white;
 $bgColor-silver--code:                 $silver;
+$bgColor-whiteA8--nav:                 $whiteA7;
+$bgColor-blackA8--navDark:             $blackA8;
 
 $borderColor-blackA5--btn:             $blackA5;
 $borderColor-blackA8--btn:             $blackA8;

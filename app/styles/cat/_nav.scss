@@ -1,4 +1,5 @@
 .nav {
+  background-color: $bgColor-whiteA8--nav;
   border-bottom: 1px solid $borderColor-blackA1--nav;
   padding: 12px 0;
   vertical-align: baseline;
@@ -22,9 +23,25 @@
 .nav-list > a {
   color: $color-blackA8--navList;
 }
-.nav-logo, .nav-list > a {
+.nav-list > a, .nav-logo {
   display: inline-block;
   margin: 0 5px;
   outline: none;
   text-decoration: none;
+}
+.nav--fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.nav--dark {
+  background-color: $bgColor-blackA8--navDark;
+  border-bottom: 1px solid $white;
+}
+.nav--dark .nav-logo {
+  color: $color-white--navDarkLogo;
+}
+.nav--dark .nav-list > a {
+  color: $color-white--navListDark;
 }
