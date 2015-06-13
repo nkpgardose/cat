@@ -1,21 +1,28 @@
 .nav {
+  border-bottom: 1px solid $borderColor-blackA1--nav;
+  padding: 12px 0;
   vertical-align: baseline;
-  border-bottom: 1px solid $blackA1;
 }
 .nav-logo {
+  color: $color-blackA8--navLogo;
   display: inline-block;
   outline: 0;
   outline-style: none;
   outline-width: 0;
   -webkit-tap-highlight-color: $highlightColor-stealth--navLogo;
 }
+.nav-logo:hover, .nav-logo:focus {
+  color: $color-blackA8--navLogo;
+}
 .nav-list {
-  padding-bottom: 12px;
   overflow-x: scroll;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
 .nav-list > a {
+  color: $color-blackA8--navList;
+}
+.nav-logo, .nav-list > a {
   display: inline-block;
   margin: 0 5px;
   outline: none;
