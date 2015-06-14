@@ -4,6 +4,23 @@
   padding: 12px 0;
   vertical-align: baseline;
 }
+.nav-list {
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.nav-item {
+  color: $color-blackA8--navList;
+}
+.nav-item:hover, .nav-item:focus {
+  color: $color-blackA8--navList;
+}
+.nav-item, .nav-logo {
+  display: inline-block;
+  margin: 0 5px;
+  outline: none;
+  text-decoration: none;
+}
 .nav-logo {
   color: $color-blackA8--navLogo;
   display: inline-block;
@@ -14,20 +31,6 @@
 }
 .nav-logo:hover, .nav-logo:focus {
   color: $color-blackA8--navLogo;
-}
-.nav-list {
-  overflow-x: scroll;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-.nav-list > a {
-  color: $color-blackA8--navList;
-}
-.nav-list > a, .nav-logo {
-  display: inline-block;
-  margin: 0 5px;
-  outline: none;
-  text-decoration: none;
 }
 .nav--fixed {
   position: fixed;
@@ -42,6 +45,10 @@
 .nav--dark .nav-logo {
   color: $color-white--navDarkLogo;
 }
-.nav--dark .nav-list > a {
+.nav--dark .nav-item {
+  color: $color-white--navListDark;
+}
+.nav--dark .nav-item:hover,
+.nav--dark .nav-item:focus {
   color: $color-white--navListDark;
 }
