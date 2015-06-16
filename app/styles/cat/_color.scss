@@ -41,6 +41,10 @@ $color-blackA8--btn:                   $blackA8;
 $color-white--btnPrimary:              $white;
 $color-white--btnAlert:                $white;
 $color-whiteA8--navDark:               $whiteA8;
+$color-blackA8--flash:                 $blackA8;
+$color-whiteA8--flashWarning:          $whiteA8;
+$color-whiteA8--flashSuccess:          $whiteA8;
+$color-whiteA8--flashAlert:            $whiteA8;
 
 $bgColor-stealth--btn:                 $stealth;
 $bgColor-primary--btnPrimary:          $primary;
@@ -49,6 +53,9 @@ $bgColor-white--form:                  $white;
 $bgColor-silver--code:                 $silver;
 $bgColor-whiteA8--nav:                 $whiteA7;
 $bgColor-blackA8--navDark:             $blackA8;
+$bgColor-success--flashSuccess:        $success;
+$bgColor-alert--flashAlert:            $alert;
+$bgColor-warning--flashWarning:        $warning;
 
 $borderColor-blackA5--btn:             $blackA5;
 $borderColor-blackA8--btn:             $blackA8;
@@ -59,5 +66,9 @@ $borderColor-primary--form:            $primary;
 $borderColor-blackA1--table:           $blackA1;
 $borderColor-blackA1--nav:             $blackA1;
 $borderColor-whiteA8--navDark:         $whiteA8;
+$borderColor-blackA5--flash:           $blackA5;
+$borderColor-success--flashSuccess:    $success;
+$borderColor-alert--flashAlert:        $alert;
+$borderColor-warning--flashWarning:    $warning;
 
 $highlightColor-stealth--navLogo:       $stealth;
