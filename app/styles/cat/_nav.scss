@@ -1,36 +1,39 @@
 .nav {
+  box-sizing: border-box;
   background-color: $bgColor-whiteA8--nav;
   border-bottom: 1px solid $borderColor-blackA1--nav;
-  padding: 12px 0;
-  vertical-align: baseline;
+  padding: 12px 10px;
+  border-radius: 1px;
+  z-index: $zIndex-8--nav;
 }
 .nav-list {
   overflow-x: scroll;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
-.nav-item {
-  color: $color-blackA8--navList;
+.nav-item:hover,
+.nav-item:focus {
+  color: inherit;
+  text-decoration: underline;
 }
-.nav-item:hover, .nav-item:focus {
-  color: $color-blackA8--navList;
-}
-.nav-item, .nav-logo {
+.nav-item,
+.nav-logo {
+  color: inherit;
   display: inline-block;
   margin: 0 5px;
   outline: none;
   text-decoration: none;
 }
 .nav-logo {
-  color: $color-blackA8--navLogo;
   display: inline-block;
   outline: 0;
   outline-style: none;
   outline-width: 0;
   -webkit-tap-highlight-color: $highlightColor-stealth--navLogo;
 }
-.nav-logo:hover, .nav-logo:focus {
-  color: $color-blackA8--navLogo;
+.nav-logo:hover,
+.nav-logo:focus {
+  color: inherit;
 }
 .nav--fixed {
   position: fixed;
@@ -40,15 +43,6 @@
 }
 .nav--dark {
   background-color: $bgColor-blackA8--navDark;
-  border-bottom: 1px solid $white;
-}
-.nav--dark .nav-logo {
-  color: $color-white--navDarkLogo;
-}
-.nav--dark .nav-item {
-  color: $color-white--navListDark;
-}
-.nav--dark .nav-item:hover,
-.nav--dark .nav-item:focus {
-  color: $color-white--navListDark;
+  border-bottom: 1px solid $borderColor-whiteA8--navDark;
+  color: $color-whiteA8--navDark;
 }
