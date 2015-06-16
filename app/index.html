@@ -22,20 +22,57 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <section class="container">
+      <nav class="nav u-clearFix">
+        <a href="#" class="nav-logo">
+          <i class="icon ion-ios-paw-outline" style="font-size: 20px;"></i>
+          <span>Cat Paw</span>
+        </a>
+        <div class="nav-list u-pullRightMedUp">
+          <a class="nav-item" href="#">Home</a>
+          <a class="nav-item" href="#">About</a>
+          <a class="nav-item" href="#">Help</a>
+          <a class="nav-item" href="#">Others</a>
+          <a href="#" class="btn btn--primary">Using button</a>
+        </div>
+      </nav>
       <br />
-      <div class="row">
-        <div class="s6 col">
-          <h1>Hello World</h1>
-          <h2>Hello World</h2>
-          <h3>Hello World</h3>
-          <h4>Hello World</h4>
-          <h5>Hello World</h5>
-          <h6>Hello World</h6>
-        </div>
-        <div class="s6 col">
-          <p>Helvetica viral beard listicle stumptown, retro Schlitz fashion axe fixie banjo raw denim hella Marfa Kickstarter. Tilde next level forage before they sold out. Four dollar toast small batch stumptown 8-bit fanny pack. Deep v asymmetrical polaroid banjo. IPhone tattooed single-origin coffee shabby chic Pinterest, bitters cronut meditation Neutra kogi gentrify wolf tousled mumblecore leggings. Chambray readymade typewriter, small batch DIY disrupt occupy. Hoodie tote bag fanny pack, four dollar toast mixtape plaid tofu Carles Austin beard skateboard Brooklyn brunch Vice fap.</p>
-        </div>
+      <div class="flash flash--success">
+        <a class="flash-close js-close"><i class='icon ion-close-round'></i></a>
+        <span class="flash-message">You've successfully log in! Hooray!</span>
       </div>
+      <br />
+      <div class="flash flash--alert">
+        <a class="flash-close js-close"><i class='icon ion-close-round'></i></a>
+        <span class="flash-message">Oops! You've done something wrong!</span>
+      </div>
+      <br />
+      <div class="flash flash--warning">
+        <a class="flash-close js-close"><i class='icon ion-close-round'></i></a>
+        <span class="flash-message">You do have to fill this out, you know.</span>
+      </div>
+      <br />
+      <form action="" method="post">
+        <label for="example-email">Your email</label>
+        <input type="email" class="u-fullWidth" id="example-email" placeholder="sample@email.com"/>
+        <div class="row">
+          <div class="s6 col">
+            <label for="example-firstname">First name</label>
+            <input type="text" class="u-fullWidth" id="example-firstname" placeholder="Neil"/>
+          </div>
+          <div class="s6 col">
+            <label for="example-lastname">Last name</label>
+            <input type="text" class="u-fullWidth" id="example-firstname" placeholder="Gardose"/>
+          </div>
+        </div>
+        <label for="example-select">Type of creature</label>
+        <select id="example-select" class="u-fullWidth">
+          <option value="default">Default</option>
+          <option value="robot">Robot</option>
+          <option value="human">Human</option>
+          <option value="dinosaur">Dinosaur</option>
+        </select>
+        <input class="btn--primary" type="submit" value="Submit" />
+      </form>
     </section>
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
@@ -55,6 +92,7 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <script src="scripts/cat/flash.js"></script>
         <!-- endbuild -->
 </body>
 </html>
