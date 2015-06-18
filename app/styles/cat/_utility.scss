@@ -6,24 +6,41 @@
 .u-clearFix:after {
   clear: both;
 }
-.u-fullWidth {
-  width: 100%;
-}
-.u-maxFullWidth {
-  max-width: 100%;
-}
 .u-pullRight {
   float: right;
 }
 .u-pullLeft {
   float: left;
 }
+.u-hide {
+  display: none;
+}
+.u-fullWidth {
+  width: 100%;
+}
+.u-maxFullWidth {
+  max-width: 100%;
+}
 
 @media #{$ranges-mediumUp} {
+  .u-hideMedUp {
+    display: none;
+  }
   .u-pullRightMedUp {
     float: right;
   }
   .u-pullLeftMedUp {
+    float: left;
+  }
+}
+@media #{$ranges-largeUp} {
+  .u-hideLargeUp {
+    display: none;
+  }
+  .u-pullRightLargeUp {
+    float: right;
+  }
+  .u-pullLeftLargeUp {
     float: left;
   }
 }
