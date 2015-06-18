@@ -63,8 +63,8 @@ button.btn--alert,
 input[type="submit"].btn--alert,
 input[type="reset"].btn--alert,
 input[type="button"].btn--alert {
-  background-color: $bgColor-primary--btnAlert;
-  border-color: $borderColor-primary--btnAlert;
+  background-color: $bgColor-alert--btnAlert;
+  border-color: $borderColor-alert--btnAlert;
   color: $color-white--btnAlert;
 }
 .btn.btn--alert:hover,
@@ -77,7 +77,30 @@ button.btn--alert:focus,
 input[type="submit"].btn--alert:focus,
 input[type="reset"].btn--alert:focus,
 input[type="button"].btn--alert:focus {
-  background-color: darken($bgColor-primary--btnAlert, 10);
-  border-color: darken($borderColor-primary--btnAlert, 10);
+  background-color: darken($bgColor-alert--btnAlert, 10);
+  border-color: darken($borderColor-alert--btnAlert, 10);
   color: $color-white--btnAlert;
+}
+.btn.btn--success,
+button.btn--success,
+input[type="submit"].btn--success,
+input[type="reset"].btn--success,
+input[type="button"].btn--success {
+  background-color: $bgColor-success--btnSuccess;
+  border-color: $borderColor-success--btnSuccess;
+  color: $color-white--btnSuccess;
+}
+.btn.btn--success:hover,
+button.btn--success:hover,
+input[type="submit"].btn--success:hover,
+input[type="reset"].btn--success:hover,
+input[type="button"].btn--success:hover,
+.btn.btn--success:focus,
+button.btn--success:focus,
+input[type="submit"].btn--success:focus,
+input[type="reset"].btn--success:focus,
+input[type="button"].btn--success:focus {
+  background-color: darken($bgColor-success--btnSuccess, 10);
+  border-color: darken($borderColor-success--btnSuccess, 10);
+  color: $color-white--btnSuccess;
 }
