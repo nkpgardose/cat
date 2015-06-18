@@ -21,6 +21,15 @@
 .u-maxFullWidth {
   max-width: 100%;
 }
+.u-alignLeft {
+  text-align: left;
+}
+.u-alignRight {
+  text-align: right;
+}
+.u-alignCenter {
+  text-align: center;
+}
 
 @media #{$ranges-mediumUp} {
   .u-hideMedUp {
