@@ -7,7 +7,7 @@
   z-index: $zIndex-8--nav;
 }
 .nav-list {
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
