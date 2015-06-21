@@ -272,7 +272,7 @@ module.exports = function (grunt) {
           removeCommentsFromCDATA: true,
           removeEmptyAttributes: true,
           removeOptionalTags: true,
-          removeRedundantAttributes: true,
+          removeRedundantAttributes: false,
           useShortDoctype: true
         },
         files: [{
@@ -322,8 +322,14 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             'images/{,*/}*.webp',
             '{,*/}*.html',
-            'styles/fonts/{,*/}*.*'
+            'styles/fonts/{,*/}*.*',
           ]
+        }, {
+          expand: true,
+          dot: true,
+          cwd: 'bower_components/ionicons',
+          src: ['fonts/*.*'],
+          dest: '<%= config.dist %>'
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
           dest: '<%= config.dist %>/.htaccess'
