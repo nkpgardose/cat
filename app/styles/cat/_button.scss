@@ -4,21 +4,21 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   @include font-sansN3;
-  background-color: $bgColor-stealth--btn;
-  border-radius: 2px;
-  border: 1px solid $borderColor-blackA5--btn;
   box-sizing: border-box;
-  color: $color-blackA5--btn;
-  cursor: pointer;
   display: inline-block;
-  font-size: $fontSize-small--btn;
   height: 38px;
+  padding: 0 30px;
+  color: $color-blackA5--btn;
+  font-size: $fontSize-small--btn;
   letter-spacing: $letterSpacing-loose--btn;
   line-height: 37px;
-  padding: 0 30px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  background-color: $bgColor-stealth--btn;
+  border: 1px solid $borderColor-blackA5--btn;
+  border-radius: 2px;
+  cursor: pointer;
   white-space: nowrap;
 }
 .btn:hover,

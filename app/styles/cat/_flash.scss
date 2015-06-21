@@ -1,35 +1,35 @@
 .flash {
   @include font-sansN3;
   position: relative;
+  padding: 14px 15px;
   color: $color-blackA8--flash;
   border: 1px solid $borderColor-blackA5--flash;
   border-radius: 2px;
-  padding: 14px 15px;
 }
 .flash-close {
-  color: inherit;
   position: absolute;
   right: 14px;
   top: 50%;
   transform: translate(-50%, -50%);
+  color: inherit;
 }
 .flash-close:hover,
 .flash-close:focus {
-  cursor: pointer;
   color: inherit;
+  cursor: pointer;
 }
 .flash--success {
   background-color: $bgColor-success--flashSuccess;
-  color: $color-whiteA8--flashSuccess;
   border-color: $borderColor-success--flashSuccess;
+  color: $color-whiteA8--flashSuccess;
 }
 .flash--alert {
   background-color: $bgColor-alert--flashAlert;
-  color: $color-whiteA8--flashAlert;
   border-color: $borderColor-alert--flashAlert;
+  color: $color-whiteA8--flashAlert;
 }
 .flash--warning {
   background-color: $bgColor-warning--flashWarning;
-  color: $color-whiteA8--flashWarning;
   border-color: $borderColor-warning--flashWarning;
+  color: $color-whiteA8--flashWarning;
 }

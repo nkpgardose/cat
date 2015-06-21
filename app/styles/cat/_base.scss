@@ -98,12 +98,12 @@ li {
 // Base code style
 // ----------------------------------------------------------------------------
 code {
+  margin: 3.2px;
+  padding: 3.2px 8px;
   font-size: 14.4px;
   background-color: $bgColor-silver--code;
   border: 1px solid darken($bgColor-silver--code, 10);
   border-radius: 2px;
-  padding: 3.2px 8px;
-  margin: 3.2px;
   white-space: nowrap;
 }
 pre > code {
@@ -116,8 +116,8 @@ pre > code {
 th,
 td {
   padding: 12px 15px;
-  text-align: left;
   border-bottom: 1px solid $borderColor-blackA1--table;
+  text-align: left;
 }
 th:first-child,
 td:first-child {

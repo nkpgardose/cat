@@ -8,13 +8,13 @@ input[type="password"],
 textarea,
 select {
   @include font-sansN3;
+  box-sizing: border-box;
+  height: 44px;
+  padding: 11px 10px 11px 13px;
   background-color: $bgColor-white--form;
   border: 1px solid $borderColor-blackA1--form;
   border-radius: 2px;
   box-shadow: none;
-  box-sizing: border-box;
-  height: 44px;
-  padding: 11px 10px 11px 13px;
 }
 // Removes awkward default styles on some inputs for iOS
 input[type="email"],

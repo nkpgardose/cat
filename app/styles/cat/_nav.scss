@@ -1,10 +1,10 @@
 .nav {
+  z-index: $zIndex-8--nav;
   box-sizing: border-box;
+  padding: 12px 10px;
   background-color: $bgColor-whiteA8--nav;
   border-bottom: 1px solid $borderColor-blackA1--nav;
-  padding: 12px 10px;
   border-radius: 1px;
-  z-index: $zIndex-8--nav;
 }
 .nav-list {
   overflow-x: auto;
@@ -42,7 +42,7 @@
   width: 100%;
 }
 .nav--dark {
+  color: $color-whiteA8--navDark;
   background-color: $bgColor-blackA8--navDark;
   border-bottom: 1px solid $borderColor-whiteA8--navDark;
-  color: $color-whiteA8--navDark;
 }
