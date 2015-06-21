@@ -32,24 +32,24 @@
 }
 
 @media #{$ranges-mediumUp} {
-  .u-hideMedUp {
+  .u-md-hide {
     display: none;
   }
-  .u-pullRightMedUp {
+  .u-md-pullRight {
     float: right;
   }
-  .u-pullLeftMedUp {
+  .u-md-pullLeft {
     float: left;
   }
 }
 @media #{$ranges-largeUp} {
-  .u-hideLargeUp {
+  .u-lg-hide {
     display: none;
   }
-  .u-pullRightLargeUp {
+  .u-lg-pullRight {
     float: right;
   }
-  .u-pullLeftLargeUp {
+  .u-lg-pullLeft {
     float: left;
   }
 }
